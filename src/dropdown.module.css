@@ -1,0 +1,50 @@
+.initialOption{
+    background-color: rgba(255, 0, 0, 0.799);
+    display: flex;
+    justify-content: center;
+    margin-left: 39%;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 23%;
+    height: 9vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+h1{
+    color:white;
+}
+h2{
+    color: rgb(220, 220, 211);
+}
+
+.option{
+    display: flex;
+    padding-left: 10px;
+    align-items: flex-start;
+
+}
+.singleOption{
+    
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.756);
+    justify-content: center;
+    width: 23%;
+    color: white;
+    font-size: 20px;
+    height: 6vh;
+    padding: 0px;
+    margin-left: 39%;
+}
+
+.singleOption:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+    color: rgb(6, 5, 5)
+}
+
+.select{
+    color:white
+}
